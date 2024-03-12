@@ -2,6 +2,7 @@
 
 import './App.css'
 import Counter from './components/Counter.jsx'
+import ShowHide from './components/ShowHide.jsx'
 
 function App() {
 	// const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
 				<Counter />
 				<Counter />
 			</div>
+
+			<ShowHide />
 
 		</main>
 	)
